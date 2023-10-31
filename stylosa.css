@@ -1,0 +1,8 @@
+body{
+    background-image: url('imagenes/fondi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}

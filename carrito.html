@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="prueba1.html">Tienda NBA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Un Poco de Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#carrito">Carrito <span id="cart-total">$0.00</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="pago" class="container my-4">
+        <h2>Realizar Pago</h2>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="credit-card">Número de Tarjeta de Crédito</label>
+                <input type="text" class="form-control" id="credit-card" placeholder="Ingrese su número de tarjeta de crédito">
+            </div>
+            <div class="form-group">
+                <label for="expiration-date">Fecha de Vencimiento</label>
+                <input type="text" class="form-control" id="expiration-date" placeholder="MM/YY">
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" class="form-control" id="cvv" placeholder="CVV">
+            </div>
+            <button type="submit" class="btn btn-primary">Pagar</button>
+        </form>
+        <div id="payment-details" style="display:none;">
+            <p>Total de productos: <span id="total-products">$0.00</span></p>
+            <p>Precio: <span id="price">$0.00</span></p>
+        </div>
+    </section>
+
+   
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

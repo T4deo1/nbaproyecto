@@ -1,0 +1,8 @@
+body{
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color: orange;
+}

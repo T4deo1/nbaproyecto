@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Tienda NBA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">Carrito <span id="cart-total">$0.00</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Un Poco de Nosotros</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    <section id="productos" class="container my-4">
+        <h2>Productos</h2>
+        <div class="row">
+            <div class="col-md-3 ">
+                <div class="card">
+                    <img src="imagenes/remera.jpeg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Remera de Steve Nash</h5>
+                        <p class="card-text">Remera de Los Lakers</p>
+                        <p class="card-price">$19.99</p>
+                        <button class="btn btn-primary add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card">
+                        <img src="imagenes/gorras.jpeg" class="card-img-top" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Gorras de la NBA</h5>
+                            <p class="card-text">Gorras de todos los equipos</p>
+                            <p class="card-price">$25</p>
+                            <button class="btn btn-primary add-to-cart">Agregar al carrito</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="imagenes/remecorta.jpeg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Remera de la NBA</h5>
+                        <p class="card-text">Remera de la NBA todos los talles</p>
+                        <p class="card-price">$15</p>
+                        <button class="btn btn-primary add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="imagenes/pan.jpg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Pantalon Corto de los Bulls</h5>
+                        <p class="card-text">Bulls iconic </p>
+                        <p class="card-price">$49.99</p>
+                        <button class="btn btn-primary add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carrito" class="container my-4">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items">
+           
+        </ul>
+        
+    </section>
+
+   >
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
